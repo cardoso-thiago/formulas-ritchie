@@ -28,3 +28,4 @@ Esse repositório contém fórmulas que podem ser executadas utilizando o [ritch
 ## Fórmulas Disponíveis nesse Repositório
 
 * rit k8s secret: Gera um arquivo de Secret Opaque para o Kubernetes.
+* rit gitlab wiki: Exibe uma lista de tópicos disponíveis em uma página do Gitlab Pages e abre a página correspondente ao tópico selecionado.
