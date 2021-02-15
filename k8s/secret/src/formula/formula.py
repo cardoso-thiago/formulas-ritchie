@@ -51,7 +51,7 @@ def get_user_confirmation():
 
     if confirmation.lower() == 'y':
         return True
-    elif  confirmation.lower() == 'n':
+    elif confirmation.lower() == 'n':
         return False
     else:
         print(f"{fg(1)}Insira uma opção válida: (y/n) {attr(0)}")
