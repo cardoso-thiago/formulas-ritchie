@@ -29,3 +29,10 @@ Esse repositório contém fórmulas que podem ser executadas utilizando o [ritch
 
 * rit k8s secret: Gera um arquivo de Secret Opaque para o Kubernetes.
 * rit gitlab wiki: Exibe uma lista de tópicos disponíveis em uma página do Gitlab Pages e abre a página correspondente ao tópico selecionado.
+* rit stocks info: Exibe uma lista de 3 ações configuradas através de credenciais.
+  * Dependência: [Yahoo Fin](http://theautomatic.net/yahoo_fin-documentation/) instalado
+  * Deve ser adicionada uma nova credential com o nome `ticker` utilizando o comando `rit set credential`.
+  * Executando o comando, você já pode adicionar até 5 tickers, no padrão `ticker1`, `ticker2`, etc.
+  * Na execução da fórmula, caso não tenha completado com os 5 tickers, será solicitado o preenchimento das restantes, que podem ser deixados em branco.
+
+> O padrão de nome do ticker segue o padrão do Yahoo Finance e geralmente possui um `.SA` no final. Você deve informar os tickers nesse formato. Para conferir os valores exatos, você pode consultar o site do [Yahoo Finance](https://finance.yahoo.com/).

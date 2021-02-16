@@ -9,7 +9,6 @@ SET SH_FILE=%BIN_FOLDER%\run.sh
     xcopy /E /I src %BIN_FOLDER%
     CALL :BAT_WINDOWS
     CALL :SH_LINUX
-    CALL :CP_DOCKER
     pip3 install -r %BIN_FOLDER%/requirements.txt
     GOTO DONE
 
@@ -24,11 +23,6 @@ SET SH_FILE=%BIN_FOLDER%\run.sh
     echo pip3 install -r "$(dirname "$0")"/requirements.txt ^>^> /dev/null >> %SH_FILE%
     echo fi >> %SH_FILE%
     echo python3 "$(dirname "$0")"/main.py >> %SH_FILE%
-    GOTO DONE
-
-:CP_DOCKER
-    copy Dockerfile %BIN_FOLDER%
-    copy set_umask.sh %BIN_FOLDER%
     GOTO DONE
 
 :DONE
