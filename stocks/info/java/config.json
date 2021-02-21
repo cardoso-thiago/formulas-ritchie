@@ -1,0 +1,24 @@
+{
+  "inputs": [ 
+      { 
+          "name": "ticker1", 
+          "type": "CREDENTIAL_TICKER_TICKER1" 
+      },
+      { 
+          "name": "ticker2", 
+          "type": "CREDENTIAL_TICKER_TICKER2" 
+      },
+      { 
+          "name": "ticker3", 
+          "type": "CREDENTIAL_TICKER_TICKER3"
+      },
+      { 
+          "name": "ticker4", 
+          "type": "CREDENTIAL_TICKER_TICKER4"
+      },
+      { 
+          "name": "ticker5", 
+          "type": "CREDENTIAL_TICKER_TICKER5"
+      }
+  ]
+}

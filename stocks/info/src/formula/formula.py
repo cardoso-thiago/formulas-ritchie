@@ -36,7 +36,7 @@ def print_ticker_info(ticker):
     else:
         change_color = 1
 
-    print(f"{fg(3)}{current_price_e} {fg(change_color)}{change_signal}{change_e}({change_percentage}){fg(3)}{dividends}{attr(0)}")
+    print(f"{fg(3)}{current_price_e} {fg(change_color)}{change_signal}{change_e} ({change_percentage}){fg(3)}{dividends}{attr(0)}")
 
 def get_dividends(ticker):
     try:

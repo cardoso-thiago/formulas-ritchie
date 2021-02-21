@@ -36,3 +36,5 @@ Esse repositório contém fórmulas que podem ser executadas utilizando o [ritch
   * Na execução da fórmula, caso não tenha completado com os 5 tickers, será solicitado o preenchimento das restantes, que podem ser deixados em branco.
 
 > O padrão de nome do ticker segue o padrão do Yahoo Finance e geralmente possui um `.SA` no final. Você deve informar os tickers nesse formato. Para conferir os valores exatos, você pode consultar o site do [Yahoo Finance](https://finance.yahoo.com/).
+
+* rit stocks info java: Versão em **Java** da fórmula `rit stocks info`. (Mais lento pra buildar, mais rápido pra executar)
