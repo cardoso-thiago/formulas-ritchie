@@ -38,3 +38,4 @@ Esse repositório contém fórmulas que podem ser executadas utilizando o [ritch
 > O padrão de nome do ticker segue o padrão do Yahoo Finance e geralmente possui um `.SA` no final. Você deve informar os tickers nesse formato. Para conferir os valores exatos, você pode consultar o site do [Yahoo Finance](https://finance.yahoo.com/).
 
 * rit stocks info java: Versão em **Java** da fórmula `rit stocks info`. (Mais lento pra buildar, mais rápido pra executar)
+* rit docker last version: Demonstração para obtenção da última versão de uma imagem docker no Docker Hub. Demonstração realizada com uma imagem do Alpine, que ignora a versão `latest` e pega a próxima versão da lista (que normalmente vai ser correspondente a última). 
